@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+	- "0.12"
+	- "0.10"
+deploy:
+	provider: heroku
+	api_key: 88e71143d46f0b187c31e255561b9323b7903c13
+	app: inheron-ghost
+	strategy: git
